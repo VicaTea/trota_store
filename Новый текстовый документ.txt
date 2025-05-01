@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Тише, дорогая Мита - мультсериал для подростков и взрослых (16+). Мита, сбежав из дома, встречает эксцентричных куклотерапевтов. Смотрите онлайн!">
+    <meta name="keywords" content="Тише, дорогая Мита, мультсериал, куклотерапия, подростки, взрослые, 16+, драма, комедия, онлайн">
+    <title>Проект TROTA</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m, e, t, r, i, k, a) {
+            m[i] = m[i] || function() {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) {
+                if (document.scripts[j].src === r) {
+                    return;
+                }
+            }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(101394551, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/101394551" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="top-bar-content">
+                <div class="logo-main">
+                    <button class="menu-toggle">Меню</button>
+                </div>
+                <div class="search-box">
+                    <input type="text" placeholder="Поиск">
+                    <button type="submit">
+                        <img src="images/icons/search.png" alt="Поиск">
+                    </button>
+                </div>
+                <a href="#" id="login-link" style="display: inline;">Войти</a>
+                <div id="profile-container" style="display: none;">
+                    <div class="profile-circle">
+                        <img id="profile-image" style="display: none;" src="" alt="Ваш профиль">
+                    </div>
+                    <span id="profile-name" style="display: none;"></span>
+                    <button id="logout-button" style="display: none;">Выйти</button>
+                    <button type="button" id="download-profile" style="display: none;">Скачать профиль</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="js/main.js"></script>
+    <div class="banner">
+        <div class="banner-content">
+          <img class="floating-image" src="images\hush.png" alt="Тише, дорогая Мита">
+        </div>
+        <img src="images/banner.png" alt="Баннер TROTA_project">
+      </div>
+    <div class="content-wrapper">
+        <nav>
+            <ul class="menu">
+                <li class="fade-in"><a href="index.html"><img src="images\logo.png" alt="Главная"><span>Главная</span></a></li>
+                <li class="fade-in"><a href="series.html"><img src="images/icons/series.png" alt="Серии"><span>Серии</span></a></li>
+                <li class="fade-in"><a href="news.html"><img src="images/icons/news.png" alt="Новости"><span>Новости</span></a></li>
+                <li class="fade-in"><a href="trotapedia.html"><img src="images/icons/wiki.png" alt="Тротапедия"><span>Тротапедия</span></a></li>
+                <li class="fade-in"><a href="books.html"><img src="images/icons/books.png" alt="Книги"><span>Книги</span></a></li>
+                <li class="fade-in"><a href="songs.html"><img src="images/icons/songs.png" alt="Песни"><span>Песни</span></a></li>
+                <li class="fade-in"><a href="fanzone.html"><img src="images/icons/fanzone.png" alt="Фан-зона"><span>Фан-зона</span></a></li>
+                <li class="fade-in"><a href="games.html"><img src="images/icons/games.png" alt="Игры"><span>Игры</span></a></li>
+                <li class="fade-in"><a href="merch.html"><img src="images/icons/merch.gif" alt="Мерч"><span>Мерч</span></a></li>
+                <li class="fade-in"><a href="community.html"><img src="images/icons/community.png" alt=" Чайная"><span> Чайная</span></a></li>
+                <li class="fade-in"><a href="schedule.html"><img src="images/icons/schedule.gif" alt="График выхода"><span>График</span></a></li>
+                <li class="fade-in"><a href="gallery.html"><img src="images/icons/gallery.png" alt="Галерея"><span>Галерея</span></a></li>
+                <li class="fade-in"><a href="feedback.html"><img src="images/icons/feedback.png" alt="Обратная связь"><span>Обратная связь</span></a></li>
+                <li class="fade-in"><a href="
+                    creators.html"><img src="images/icons/creators.gif" alt="О создателях"><span>Создатели</span></a></li>
+                </ul>
+            </nav>
+    
+            <div class="main-content">
+                <div class="info-block">
+                    <div class= "logo">
+                            <img src="images/logo.png" alt="Логотип TROTA_project">
+                    </div>
+                    <div class="description">
+                        <h1>Тише, дорогая Мита</h1>
+                        <p id="short-description">
+                            Здесь выходит мультсериал "Тише, дорогая Мита", который подходит для подростков и взрослых (16+).
+                            <a href="#" id="show-more">Еще</a>
+                        </p>
+                    </div>
+                </div>
+    
+                <main>
+                    
+                </main>
+            </div>
+        </div>
+    
+        <footer id="social-links">
+        <table>
+            <tr>
+                <td><a href="https://vk.com/trota_project"><img src="images\icons\vk.png" alt="ВКонтакте"><span>ВКонтакте</span></a></td>
+                <td><a href="https://t.me/TROTA_project"><img src="images\icons\tg.png" alt="Telegram"><span>Telegram</span></a></td>
+                <td><a href="https://www.youtube.com/@TROTA_project"><img src="images\icons\youtube.png" alt="YouTube"><span>YouTube</span></a></td>
+            </tr>
+            <tr>
+                <td><a href="https://boosty.to/trota_project"><img src="images\icons\boosty.png" alt="Boosty"><span>Boosty</span></a></td>
+                <td><a href="https://www.tiktok.com/@trota_project"><img src="images\icons\tiktok.png" alt="TikTok"><span>TikTok</span></a></td>
+                <td><a href="https://t.me/VicaTea"><img src="images\icons\autor.png" alt="Автор"><span>Автор</span></a></td>
+            </tr>
+        </table>
+        <br>
+        <p>© 2025 TROTA_project. Все права защищены.</p>
+    </footer>
+</body>
+</html>
+
+Cмотри есть основа сайта, css и прочее тоже есть, мне надо чтобы ты его оформил как МАГАЗИН. То есть заменил названия и надписи и прочее и, пусть давай у нас на одной вкладке пока все будет 
+
+"Основной сайт" : https://trota-project.ru/
+А этот у меня https://trota-project.store/
+Короче товары:
+
+Открыт предзаказ на фигурки! 
+Писать мне: @VicaTea 
+
+Есть четыре варианта:
+
+1) Творческий
+Загрунтованная фигурка персонажа с красками и лаком в комплекте: 1500р
+(кстати будет действовать конкурс: наиболее интересный/необычный из ваших дизайнов фигурки будет внедрен в серию, что будет выходить на тот момент)
+
+2) Фигурка
+Полностью покрашенная Фигурка 2500р
+
+3) Подготовка к чаепитию
+Набор с красками и лаком из 3х НЕпокрашенных фигурок 4000р
+
+4) Чаепитие
+Набор из 3х покрашенных фигурок 6000р
+
+Фигурки после оплаты заказа будут готовы в течении 2х недель.
+Через месяц предзаказ закончится и начнется обычная продажа, цена станет выше!!
+
+Воот
+Чет про это и еще книга будет скоро типа доступна и все такое, я ее потом напишу, есть обложка тока.
+
+Фотки с фигурками тоже ты напиши я вставлю в image png
+
+Вооот
+
+Это тупо мой обычный сайт тока с припиской сторе и оформленный как сторе. Типа я думаю будет вести с основного сайта на вкладку МЕРЧ. Точно... тогда оставляй мои ссылки на другие страницы это будет вкладка основного сайта как поддомен.
+
+Можна добавить еще опции: Закажи поздравление от Лиммануэля, Нины или Миты!
+И виды типа с Анимацией, Голос, и тд
+Придумай
+
+О моем проекте
+
+«Тише, дорогая Мита» — мультсериал, созданный проектом TROTA. Подходит для подростков и взрослых (16+). 2 источника
+
+Сюжет: девочка-подросток Мита из малого технического городка чувствует себя подавленно и одиноко из-за ссор с отцом. Во время побега её сбивает фургон двух эксцентричных, но добрых актёров, что помогают людям из больших городов решать проблемы при помощи особой методики — куклотерапии. trota-project.ru
+
+Основная идея: Мита узнаёт о прибывшей в её город корпорации бесплатной помощи людям TROTA и решает обратиться туда за помощью. Там ей помогают научиться контролировать её эмоции, в особенности гнев, и учат стратегически относиться к каждой ситуации при помощи кукольной игры. 
+
+Некоторые персонажи мультсериала «Тише, дорогая Мита»:
+
+    Главная героиня — Митаэлла (Мита), 13-летняя девочка, которая каждый день ссорится со своим отцом из-за одинаково непреклонных характеров. planeta.ru
+    Владельцы корпорации TROTA — семейный психолог Леммануэль и кукольная актриса Нина. planeta.ru
+    Второстепенные персонажи: учитель математики и программирования Дон Григорьев, отец Миты Павел, мама Миты Дина, друзья Миты — лучшая подруга Полина, подруги Камилла, Лёля и друг Вано. planeta.ru
+    Персонажи государственной компании Mercy School, которая помогает трудным подросткам влиться в общество. В неё входят воспитательная работница и бизнес-леди Мальвина, а также её лучшая ученица и помощница Аделаида.
+
+Первая серия мультсериала «Тише, дорогая Мита» рассказывает о девочке из технического городка, которая не может найти общий язык со своим отцом. Эти ссоры негативно сказываются не только на ней самой, но и на её учёбе.  2 источника
+
+Всё меняется, когда Мита узнаёт о существовании сказочного театра «Помощи людям», который способен изменить её судьбу.
+
+Все должно вести типа к форме "Сделать заказ" реализованной на js
+
+Вот пример: function generateAndDownloadFile() {
+    const formType = document.getElementById('form-type').value;
+    const name = document.getElementById('name').value;
+    const contact = document.getElementById('contact').value;
+    const subject = document.getElementById('subject').value;
+    const message = document.getElementById('message').value;
+    const jobPosition = document.getElementById('job-position').value;
+    const portfolio = document.getElementById('portfolio').value;
+
+    let fileContent = `Тип запроса: ${formType}\n`;
+    fileContent += `Имя: ${name}\n`;
+    fileContent += `Контакты: ${contact}\n`;
+
+    if (subject) {
+        fileContent += `Тема вопроса: ${subject}\n`;
+    }
+
+    fileContent += `Сообщение:\n${message}\n`;
+
+    if (formType === 'job') {
+        fileContent += `Позиция: ${jobPosition}\n`;
+        fileContent += `Портфолио: ${portfolio}\n`;
+    }
+
+    const blob = new Blob([fileContent], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'vopros.txt';
+    document.body.appendChild(a);
+    a.click();
+    URL.revokeObjectURL(url);
+    document.body.removeChild(a);
+
+    document.getElementById('download-instructions').style.display = 'block';
+}
+
+const formTypeSelect = document.getElementById('form-type');
+const jobFields = document.getElementById('job-fields');
+
+formTypeSelect.addEventListener('change', function() {
+    if (this.value === 'job') {
+        jobFields.style.display = 'block';
+    } else {
+        jobFields.style.display = 'none';
+    }
+});
+
+<div class="description">
+                    <h1>Обратная связь</h1>
+                    <p id="short-description">
+                        Если у вас есть вопросы или сложности с сайтом вы можете найти нас по контактам ниже или отослать через форму обратной связи
+                    </p>
+                </div>
+            </div>
+
+            <main>
+                <form id="feedback-form">
+                    <div class="form-group">
+                        <label for="form-type">Выберите тип запроса:</label>
+                        <select id="form-type" name="form_type">
+                            <option value="question">Задать вопрос</option>
+                            <option value="review">Оставить отзыв</option>
+                            <option value="limmanuel">Спросить Лиммануэля</option>
+                            <option value="mitu">Спросить Миту</option>
+                            <option value="nina">Спросить Нину</option>
+                            <option value="job">Устроиться к нам</option>
+                        </select>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact">Ваши контакты для связи:</label>
+                        <input type="email" id="contact" name="contact" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="subject">Тема вопроса:</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="message">Сообщение:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                
+                    <div id="job-fields" style="display: none;">
+                        <div class="form-group">
+                            <label for="job-position">Выберите кем:</label>
+                            <select id="job-position" name="job_position">
+                                <option value="2d">2D аниматор</option>
+                                <option value="3d">3D аниматор</option>
+                                <option value="background">Художник-фоновик</option>
+                                <option value="actor">Актер озвучки</option>
+                                <option value="sound">Звукорежиссер</option>
+                                <option value="musician">Музыкант</option>
+                                <option value="vocalist">Вокалист</option>
+                                <option value="other">Ваш вариант</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="portfolio">Ссылка на ваше портфолио:</label>
+                            <input type="url" id="portfolio" name="portfolio">
+                        </div>
+                    </div>
+                
+                    <button type="button" onclick="generateAndDownloadFile()">Отправить вопрос</button>
+                    <p id="download-instructions" style="display: none;">Файл с вашим вопросом скачан. Пожалуйста, отправьте его <a href="https://t.me/VicaTea">мне</a></p>
+                </form>              
+            </main>
+        </div>
+    </div>
+
