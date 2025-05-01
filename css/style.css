@@ -1029,18 +1029,19 @@ input {
     .banner-content {
         position: absolute; /* Размещаем поверх баннера */
         top: 53%;          /* Центрируем по вертикали */
-        left: 50%;         /* Центрируем по горизонтали */
-        transform: translate(-50%, -50%); /* Точное центрирование */
+        left: 65%;         /* Центрируем по горизонтали */
+        transform: translate(-50%, -70%); /* Точное центрирование */
         z-index: 1;         /* Убедитесь, что контент выше баннера */
         text-align: center; /* Выравниваем текст по центру (если есть) */
     }
     
     .floating-image {
-        width: 200px;      /* Начальный размер изображения */
+        width: 400px;      /* Начальный размер изображения */
         height: auto;
         transition: transform 0.3s ease; /* Плавное изменение размера при наведении */
         animation: floatImage 13s linear infinite alternate; /* Другое направление */
         pointer-events: none; /* чтобы не мешала баннеру и кликам */
+        float:left;
     }
     
     .floating-image:hover {
@@ -1110,7 +1111,7 @@ input {
             overflow-x: 500;
         }
         .floating-image{
-            width: 50%
+            width: 50%;
         }
         .top-bar-content{
             display: flex;
