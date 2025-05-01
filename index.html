@@ -6,7 +6,7 @@
     <meta name="description" content="TROTA Project Store - Официальный магазин товаров по мультсериалу 'Тише, дорогая Мита'. Фигурки, книги и многое другое!">
     <meta name="keywords" content="Тише, дорогая Мита, мерч, фигурки, книги, TROTA Project, магазин, купить">
     <title>TROTA Project Store</title>
-    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
@@ -82,44 +82,87 @@
                 <div class="description">
                     <h1>TROTA Project Store</h1>
                     <p id="short-description">
-                        Официальный магазин товаров по мультсериалу "Тише, дорогая Мита". Фигурки любимых персонажей и многое другое!
+                        Официальный магазин товаров по мультсериалу "Тише, дорогая Мита". Обретите частичку тепла и уюта с фигурками любимых персонажей!
                     </p>
                 </div>
             </div>
 
             <main>
                 <section class="product-grid">
-                    <div class="product-item">
-                        <img src="images/fig1.jpg" alt="Творческий набор"> <!-- Замените на реальное изображение -->
-                        <h3>Творческий</h3>
-                        <p>Загрунтованная фигурка персонажа с красками и лаком в комплекте.</p>
-                        <p><b>Цена:</b> 1500р</p>
-                        <button onclick="openOrderForm('Творческий набор')">Сделать предзаказ</button>
-                    </div>
-
-                    <div class="product-item">
-                        <img src="images/fig2.jpg" alt="Готовая фигурка"> <!-- Замените на реальное изображение -->
-                        <h3>Фигурка</h3>
-                        <p>Полностью покрашенная фигурка персонажа.</p>
+                    <div class="product-item" data-product="limmanuel">
+                        <div class="image-slider">
+                            <img src="images/figur/Л1.png" alt="Фигурка Лиммануэля 1">
+                            <img src="images/figur/Л2.png" alt="Фигурка Лиммануэля 2">
+                            <img src="images/figur/Л3.png" alt="Фигурка Лиммануэля 3">
+                        </div>
+                        <h3>Фигурка Лиммануэля</h3>
+                        <p>Обаятельная фигурка станет хорошим компаньоном в чаепитии, Лим всегда готов выслушать и поддержать.Он станет талисманом спокойствия в вашем доме!</p>
                         <p><b>Цена:</b> 2500р</p>
-                        <button onclick="openOrderForm('Фигурка')">Сделать предзаказ</button>
+                        <button onclick="openOrderForm('Фигурка Лиммануэля')">Сделать предзаказ</button>
                     </div>
 
-                    <div class="product-item">
-                        <img src="images/fig3.jpg" alt="Набор для чаепития (непокрашенные)"> <!-- Замените на реальное изображение -->
-                        <h3>Подготовка к чаепитию</h3>
-                        <p>Набор с красками и лаком из 3х НЕпокрашенных фигурок.</p>
+                    <div class="product-item" data-product="mita">
+                        <div class="image-slider">
+                            <img src="images/figur/М1.png" alt="Фигурка Миты 1">
+                            <img src="images/figur/М2.png" alt="Фигурка Миты 2">
+                            <img src="images/figur/М3.png" alt="Фигурка Миты 3">
+                        </div>
+                        <h3>Фигурка Миты</h3>
+                        <p>Хороший друг и защитница! Пусть эта фигурка станет напоминанием о том, что никогда не нужно сдаваться!</p>
+                        <p><b>Цена:</b> 2500р</p>
+                        <button onclick="openOrderForm('Фигурка Миты')">Сделать предзаказ</button>
+                    </div>
+
+                    <div class="product-item" data-product="nina">
+                        <div class="image-slider">
+                            <img src="images/figur/Н1.png" alt="Фигурка Нины 1">
+                            <img src="images/figur/Н2.png" alt="Фигурка Нины 2">
+                            <img src="images/figur/Н3.png" alt="Фигурка Нины 3">
+                        </div>
+                        <h3>Фигурка Нины</h3>
+                        <p>Олицетворение практичности и рационализма. Всегда найдет решение любой проблемы! Эта фигурка принесет вдохновение и энергию в вашу жизнь!</p>
+                        <p><b>Цена:</b> 2500р</p>
+                        <button onclick="openOrderForm('Фигурка Нины')">Сделать предзаказ</button>
+                    </div>
+
+                    <div class="product-item" data-product="lim-nina">
+                        <div class="image-slider">
+                            <img src="images/figur/ЛН1.png" alt="Фигурка Лим и Нина 1">
+                            <img src="images/figur/ЛН2.png" alt="Фигурка Лим и Нина 2">
+                            <img src="images/figur/ЛН3.png" alt="Фигурка Лим и Нина 3">
+                        </div>
+                        <h3>Лим и Нина: Прогулка</h3>
+                        <p>Возьмите двух путешественников к себе! Этот набор наполнит ваше пространство уютом, теплом и, конечно, юмором!</p>
                         <p><b>Цена:</b> 4000р</p>
-                        <button onclick="openOrderForm('Подготовка к чаепитию')">Сделать предзаказ</button>
+                        <button onclick="openOrderForm('Лим и Нина: Прогулка')">Сделать предзаказ</button>
                     </div>
 
-                    <div class="product-item">
-                        <img src="images/fig4.jpg" alt="Набор для чаепития (покрашенные)"> <!-- Замените на реальное изображение -->
-                        <h3>Чаепитие</h3>
-                        <p>Набор из 3х покрашенных фигурок.</p>
+                    <div class="product-item" data-product="lim-mita-nina">
+                        <div class="image-slider">
+                            <img src="images/figur/ЛМН1.png" alt="Фигурка Лим, Мита и Нина 1">
+                            <img src="images/figur/ЛМН2.png" alt="Фигурка Лим, Мита и Нина 2">
+                            <img src="images/figur/ЛМН3.png" alt="Фигурка Лим, Мита и Нина 3">
+                        </div>
+                        <h3>Терапия: Лим, Мита и Нина</h3>
+                        <p>Втроем Лим, Мита и Нина создают атмосферу поддержки и принятия. Этот набор станет символом заботы и взаимопомощи в вашем доме!</p>
                         <p><b>Цена:</b> 6000р</p>
-                        <button onclick="openOrderForm('Чаепитие')">Сделать предзаказ</button>
+                        <button onclick="openOrderForm('Терапия: Лим, Мита и Нина')">Сделать предзаказ</button>
                     </div>
+                        <div class="product-item">
+                            <img src="images/fig1.jpg" alt="Творческий набор"> <!-- Замените на реальное изображение -->
+                            <h3>Творческий</h3>
+                            <p>Загрунтованная фигурка персонажа с красками и лаком в комплекте.</p>
+                            <p><b>Цена:</b> 1500р</p>
+                            <button onclick="openOrderForm('Творческий набор')">Сделать предзаказ</button>
+                        </div>
+                        <div class="product-item">
+                            <img src="images/fig3.jpg" alt="Набор для чаепития (непокрашенные)"> <!-- Замените на реальное изображение -->
+                            <h3>Подготовка к чаепитию</h3>
+                            <p>Набор с красками и лаком из 3х НЕпокрашенных фигурок.</p>
+                            <p><b>Цена:</b> 4000р</p>
+                            <button onclick="openOrderForm('Подготовка к чаепитию')">Сделать предзаказ</button>
+                        </div>
+
                     <div class="product-item">
                         <img src="images/bookcover.png" alt="Книга"> <!-- Замените на реальное изображение -->
                         <h3>Книга "Правила бездны"</h3>
@@ -136,7 +179,7 @@
                         <h3>Закажите поздравление от любимого персонажа!</h3>
                         <p>Сделайте особенный подарок для себя или своих близких.</p>
                         <p><b>Цена:</b> Уточняется</p>
-                        <button onclick="openOrderForm('Книга')">Заказать поздравление</button>
+                        <button onclick="openOrderForm('Поздравление')">Заказать поздравление</button>
                     </div>
                 </section>
 

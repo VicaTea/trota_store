@@ -37,3 +37,16 @@ rulesOfAbyssLink.addEventListener('click', (event) => {
     event.preventDefault(); // Предотвратить переход по ссылке
     rulesOfAbyssPopup.style.display = rulesOfAbyssPopup.style.display === 'none' ? 'block' : 'none';
 });
+let imageIndex = 0;
+    const imageSliders = document.querySelectorAll('.image-slider');
+
+    imageSliders.forEach(slider => {
+        slider.addEventListener('mouseover', () => {
+            const images = slider.querySelectorAll('img');
+            imageIndex = (imageIndex + 1) % images.length;
+            images.forEach((img, index) => {
+                img.classList.toggle('active', index === imageIndex);
+            });
+        });
+    });
+    

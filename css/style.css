@@ -1391,4 +1391,68 @@ input {
             margin-left: 0; /* Убираем отступ между кнопками */
         }
     }
-    
+    /* Общие стили для product-item, чтобы задать размеры и отступы */
+.product-item {
+    width: 300px; /* или другая ширина, подходящая для вашего дизайна */
+    margin: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Общие стили для image-slider */
+.image-slider {
+    position: relative;
+    width: 100%;
+    height: 250px; /* Подберите высоту, чтобы изображения отображались корректно */
+    overflow: hidden;
+}
+
+.image-slider img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Важно: чтобы изображения сохраняли пропорции и заполняли область */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; /* Уменьшил время перехода для более быстрой смены */
+}
+
+.image-slider img:first-child {
+    opacity: 1;
+}
+
+/* Смена изображений при наведении */
+.product-item:hover .image-slider img {
+    opacity: 0;
+}
+
+.product-item:hover .image-slider img:nth-child(1) {
+    opacity: 0;  /* Скрываем первое изображение */
+    transition-delay: 0s; /* Без задержки */
+}
+
+.product-item:hover .image-slider img:nth-child(2) {
+    opacity: 1;  /* Показываем второе изображение */
+    transition-delay: 0.25s; /* Задержка в 0.25 секунды перед показом */
+}
+
+.product-item:hover .image-slider img:nth-child(3) {
+    opacity: 1;  /* Показываем третье изображение */
+    transition-delay: 1s;  /* Задержка в 0.5 секунды перед показом */
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .product-grid {
+        flex-direction: column; /* Перестраиваем в колонку на маленьких экранах */
+        align-items: center;
+    }
+
+    .product-item {
+        width: 80%; /* Делаем элементы шире на мобильных устройствах */
+        margin: 10px 0;
+    }
+}
